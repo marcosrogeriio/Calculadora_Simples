@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+
+body{
+    width:-100px;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(231, 71, 71);
+}
+input {
+    color: blueviolet; /* cor do bloco do numeros*/
+    padding: 17px;
+    outline: none;
+    font-size: 30px;
+    font-family: 'Playfair Display', serif; /* quando pegar import url da font tem que trazer font-family para funcionar*/
+    border-radius: 30%; /* deixar borda mais redonda*/
+}
+.main{
+    display: inline-block;
+}
+.maincolor{
+    background-color:#000;
+}
+.num{
+    width: 64px;
+    height: 67px;
+}
+.text {
+    width: 160px;
+    height: 26px;
+    border-radius:25px;
+    letter-spacing: 5px;
+    text-align:center;
+    margin-bottom: 12px;
+}
+.text1{
+    width: 24px;
+    height: 26px;
+    border-radius: 50%;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+.blue{
+    background-color: #0cd0cd;
+}
+.pin {
+    background-color: #cf1596;
+}
+.gren{
+    background-color: #aad800;
+}
+pur{
+    background-color: #8c52ff;
+}
+
+.ora{
+    background-color: #fcb707;
+}
+
